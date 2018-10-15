@@ -1,0 +1,202 @@
+body {
+  background: #1c1f26 !important;
+}
+
+.mode-hidesymbol span.mode_pill,
+.prefsShowModeSymbol__label span.mode_prefix {
+  display: none !important;
+}
+
+.avatars-off.multiline .authorWrap {
+  margin-left: 0 !important;
+}
+
+.messageLayout__preview,
+div.buffermain {
+  background: #1c1f26 !important;
+}
+
+div.log div.pendingError span.fileWrap .fileProgress,
+div.log span.fileWrap .file,
+div.log span.fileWrap .progress {
+  background-color: #252a33 !important;
+}
+
+div.log span.fileWrap .file,
+div.log span.fileWrap .fileProgress {
+  border-color: #252a33 !important;
+}
+
+div.log div.self {
+  background: #252933 !important;
+}
+
+.time-right.avatars-off.multiline div.messageRow {
+  padding-left: 26px !important;
+}
+
+div.log div.highlight {
+  background-color: #1b3458 !important;
+  border-bottom: 1px solid #284e84 !important;
+  border-top: 1px solid #284e84 !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+}
+
+div.log div.bottomSeen span,
+div.log div.focusSeen span,
+div.log div.lastSeen .divider-text,
+div.log div.status {
+  background: #1c1f26 !important;
+}
+
+.bufferHead {
+  padding: 3px 8px 3px 24px !important;
+}
+
+.bufferstatus div.status h2.bufferHeading span.label {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: #aaa !important;
+}
+
+div.dateWrapper table.date {
+  box-shadow: inset 0 -3px 0 #15171c, inset 0 -4px 0 #15171c !important;
+}
+
+div.dateWrapper table.date,
+div.log div.dateChange h3 {
+  color: #aaa !important;
+  background-color: #15171c !important;
+}
+
+canvas.clock {
+  opacity: .6;
+}
+
+.bufferHead {
+  border-bottom-color: #15171c !important;
+  background-color: #15171c !important;
+}
+
+.nickcell {
+  display: none !important;
+}
+
+.clipboardTriggerCell,
+.emojicell,
+.inputcell,
+.lockcell,
+.nickcell,
+.nickinput,
+.uploadcell {
+  background: #252931 !important;
+}
+
+.inputcell textarea,
+div.shim {
+  padding-left: 8px !important;
+  background: #252931 !important;
+}
+
+div#sidebarwrapper {
+  box-shadow: inset 5px 0 0 0 #15171c !important;
+  border-color: #15171c !important;
+  background-color: #15171c !important;
+}
+
+.bufferList .active.selected span.buffer,
+.bufferList .active.selected span.buffer:focus,
+.bufferList .active.selected span.buffer:hover {
+  background-color: #15171c !important;
+  border-color: #15171c !important;
+  color: #fff !important;
+}
+
+.bufferList .active span.buffer,
+.bufferList .active span.buffer:focus,
+.bufferList .active span.buffer:hover {
+  color: #aaa !important;
+}
+
+.bufferList h2 span.buffer,
+.bufferList h2.buffer span.buffer {
+  border-color: #15171c !important;
+}
+
+.bufferList h2 span.buffer {
+  box-shadow: 0 1px 0 #15171c !important;
+  background-color: #15171c !important;
+}
+
+.contextMenu {
+  background-color: #15171c !important;
+  box-shadow: 2px 2px 0 #15171c !important;
+  border-color: #15171c !important;
+}
+
+.contextMenu hr,
+div.log div.backlogDivider hr,
+div.log div.fetch hr {
+  border-color: #252a33 !important;
+}
+
+div.log div.fetch span,
+div.log div.fetch {
+  background: #15171c !important;
+}
+
+.accountMenu__button {
+  background-color: #15171c !important;
+  color: #aaa !important;
+  font-weight: 400 !important;
+  border-top-color: #15171c !important;
+  box-shadow: 0 -1px 0 #15171c !important;
+  text-shadow: 1px 1px 0 #15171c !important;
+}
+
+.accountMenu {
+  background-color: #15171c !important;
+  color: #aaa !important;
+  box-shadow: none !important;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #1c1f26 !important;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb {
+  background-color: #252933 !important;
+  border-color: #252933 !important;
+}
+
+div.scroll::-webkit-scrollbar-thumb,
+div.scroll::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-thumb {
+  border-color: #252933 !important;
+}
+
+div#container {
+  min-width: 840px !important;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #1c1f26 !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #1c1f26 !important;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background-color: #1c1f26 !important;
+}
+
+div.scroll::-webkit-scrollbar-track-piece,
+div.scroll::-webkit-scrollbar-thumb {
+    border-color: #1c1f26 !important;
+}
+
+.inputstatuscell {
+  height: 0 !important;
+}
