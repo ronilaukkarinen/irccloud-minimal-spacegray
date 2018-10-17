@@ -106,11 +106,10 @@ div#sidebarwrapper {
 }
 
 .bufferList .active.selected span.buffer,
-.bufferList .active.selected span.buffer:focus,
-.bufferList .active.selected span.buffer:hover {
+.bufferList .active.selected span.buffer:focus {
   background-color: #15171c !important;
   border-color: #15171c !important;
-  color: #fff !important;
+  color: #6c80b5 !important;
 }
 
 .bufferList .active span.buffer,
@@ -127,6 +126,17 @@ div#sidebarwrapper {
 .bufferList h2 span.buffer {
   box-shadow: 0 1px 0 #15171c !important;
   background-color: #15171c !important;
+}
+
+body .bufferList .buffer span.buffer:focus,
+body .bufferList .buffer span.buffer:hover,
+body .bufferList .openArchives p.archiveToggle button,
+body .bufferList p.archiveToggle button:focus,
+body .bufferList p.archiveToggle button:hover,
+body .bufferList p.collapseToggle button:focus,
+body .bufferList p.collapseToggle button:hover {
+  background-color: #15171c !important;
+  color: #fff !important;
 }
 
 .contextMenu {
@@ -183,18 +193,20 @@ div#container {
 }
 
 ::-webkit-scrollbar-track-piece {
-    background-color: #1c1f26 !important;
+  background-color: #1c1f26 !important;
 }
+
 ::-webkit-scrollbar-thumb {
-    background-color: #1c1f26 !important;
+  background-color: #1c1f26 !important;
 }
+
 ::-webkit-scrollbar-thumb:window-inactive {
-    background-color: #1c1f26 !important;
+  background-color: #1c1f26 !important;
 }
 
 div.scroll::-webkit-scrollbar-track-piece,
 div.scroll::-webkit-scrollbar-thumb {
-    border-color: #1c1f26 !important;
+  border-color: #1c1f26 !important;
 }
 
 .inputstatuscell {
