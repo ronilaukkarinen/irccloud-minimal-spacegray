@@ -234,3 +234,7 @@ div.log div.messageRow {
 .topic {
   font-size: 13px !important;
 }
+
+.topic {
+  color: #999 !important;
+}
