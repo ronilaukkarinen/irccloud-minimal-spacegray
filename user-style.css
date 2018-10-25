@@ -230,6 +230,7 @@ div.log div.messageRow {
   font-size: 14px !important;
 }
 
-.accountMenu__button {
+.accountMenu__button,
+.topic {
   font-size: 13px !important;
 }
