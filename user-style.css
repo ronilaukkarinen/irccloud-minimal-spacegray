@@ -181,7 +181,7 @@ div.log div.fetch {
 }
 
 ::-webkit-scrollbar-track-piece {
-  background-color: #1c1f26 !important;
+  background-color: #252933 !important;
 }
 
 ::-webkit-scrollbar-thumb,
@@ -237,4 +237,11 @@ div.log div.messageRow {
 
 .topic {
   color: #999 !important;
+}
+
+.extras span.extrasBar {
+  color: #666 !important;
+  background-color: #1c1f26 !important;
+  border-bottom-color: #1c1f26 !important;
+  padding-left: 26px !important;
 }
