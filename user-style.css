@@ -238,10 +238,3 @@ div.log div.messageRow {
 .topic {
   color: #999 !important;
 }
-
-.extras span.extrasBar {
-  color: #666 !important;
-  background-color: #1c1f26 !important;
-  border-bottom-color: #1c1f26 !important;
-  padding-left: 26px !important;
-}
